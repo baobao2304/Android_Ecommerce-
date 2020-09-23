@@ -5,5 +5,5 @@ Version 1 :
 	+ Login and Log out
 	+ Share References
 	+ Firebase 
-	
+	+ Notification 
 Video Version 1: https://www.youtube.com/watch?v=cEDE4DRkwQM

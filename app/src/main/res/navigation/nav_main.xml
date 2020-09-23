@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeBlankFragment">
+
+    <fragment
+        android:id="@+id/homeBlankFragment"
+        android:name="com.example.android_ecommerce.ui.home.HomeBlankFragment"
+        android:label="fragment_home_blank"
+        tools:layout="@layout/fragment_home_blank" >
+        <action
+            android:id="@+id/action_homeBlankFragment_to_detailPrBlankFragment"
+            app:destination="@id/detailPrBlankFragment" />
+        <action
+            android:id="@+id/action_homeBlankFragment_to_storeBlankFragment"
+            app:destination="@id/storeBlankFragment" />
+        <action
+            android:id="@+id/action_homeBlankFragment_to_historyStoreBlankFragment"
+            app:destination="@id/historyStoreBlankFragment" />
+        <action
+            android:id="@+id/action_homeBlankFragment_to_loginRegisterBlankFragment"
+            app:destination="@id/loginRegisterBlankFragment" />
+        <action
+            android:id="@+id/action_homeBlankFragment_to_notificationBlankFragment"
+            app:destination="@id/notificationBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPrBlankFragment"
+        android:name="com.example.android_ecommerce.ui.detail.DetailPrBlankFragment"
+        android:label="fragment_detail_pr_blank"
+        tools:layout="@layout/fragment_detail_pr_blank" >
+        <action
+            android:id="@+id/action_detailPrBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+        <action
+            android:id="@+id/action_detailPrBlankFragment_to_storeBlankFragment"
+            app:destination="@id/storeBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storeBlankFragment"
+        android:name="com.example.android_ecommerce.ui.StoreBlankFragment"
+        android:label="fragment_store_blank"
+        tools:layout="@layout/fragment_store_blank" >
+        <action
+            android:id="@+id/action_storeBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyStoreBlankFragment"
+        android:name="com.example.android_ecommerce.ui.HistoryStoreBlankFragment"
+        android:label="fragment_history_store_blank"
+        tools:layout="@layout/fragment_history_store_blank" >
+        <action
+            android:id="@+id/action_historyStoreBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginRegisterBlankFragment"
+        android:name="com.example.android_ecommerce.ui.LoginRegisterBlankFragment"
+        android:label="fragment_login_register_blank"
+        tools:layout="@layout/fragment_login_register_blank" >
+        <action
+            android:id="@+id/action_loginRegisterBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationBlankFragment"
+        android:name="com.example.android_ecommerce.ui.NotificationBlankFragment"
+        android:label="fragment_notification_blank"
+        tools:layout="@layout/fragment_notification_blank" >
+        <action
+            android:id="@+id/action_notificationBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+    </fragment>
+</navigation>

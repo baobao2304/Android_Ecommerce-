@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/imgPrSt"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtNamePrSt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:text="NAME PRODUCT"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtPricePrSt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="15000VND"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/unitMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VND"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/btnAddSt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="134dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/btnNumberSt"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/btnRemoveSt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="134dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
